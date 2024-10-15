@@ -1,0 +1,17 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <HBox >
+        <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Tree Table"
+            subheader="Afficher les données dans un tableau arborescent" press="goToTree" frameType= "TwoByHalf">
+            <TileContent />
+        </GenericTile>
+    
+        <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Standard Table"
+            subheader="Afficher les données dans un tableau standard" press="goToStandard" frameType= "TwoByHalf">
+            <TileContent />
+        </GenericTile>
+    </HBox>
+    </Page>
+</mvc:View>
